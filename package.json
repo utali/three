@@ -1,0 +1,21 @@
+{
+  "name": "three",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite --port 6089 --open true",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "restart": "vite --force --port 6089 --open true"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.163.0"
+  },
+  "devDependencies": {
+    "vite": "^5.2.8"
+  }
+}
